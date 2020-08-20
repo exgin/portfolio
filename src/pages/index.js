@@ -16,13 +16,33 @@ const HomeIndex = () => {
       </Helmet>
 
       <div id="main">
+        <section id="two">
+          <h2>Projects</h2>
+
+          <Gallery />
+
+          <h3>Course Work</h3>
+
+          <p>add course work here</p>
+        </section>
+
+        <section id="four">
+          <h2>Skills</h2>
+
+          <ul className="">
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>HTML | CSS</li>
+            ----
+            <li>Heroku</li>
+            <li>Netlify</li>
+            <li>Git | Github</li>
+          </ul>
+        </section>
+
         <section id="one">
           <header className="major">
-            <h2>
-              Ipsum lorem dolor aliquam ante commodo
-              <br />
-              magna sed accumsan arcu neque.
-            </h2>
+            <h2>About me</h2>
           </header>
           <p>
             Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
@@ -32,36 +52,11 @@ const HomeIndex = () => {
             Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
             lorem neque cubilia.
           </p>
-          <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Learn More
-              </a>
-            </li>
-          </ul>
-        </section>
-
-        <section id="two">
-          <h2>Recent Work</h2>
-
-          <Gallery />
-
-          <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Full Portfolio
-              </a>
-            </li>
-          </ul>
         </section>
 
         <section id="three">
-          <h2>Get In Touch</h2>
-          <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
-          </p>
+          <h2>Contact</h2>
+          <p>Want to contact me? Do so here!</p>
           <div className="row">
             <div className="8u 12u$(small)">
               <form method="post" action="#">
@@ -101,26 +96,10 @@ const HomeIndex = () => {
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
                 <li>
-                  <h3 className="icon fa-home">
-                    <span className="label">Address</span>
-                  </h3>
-                  1234 Somewhere Rd.
-                  <br />
-                  Nashville, TN 00000
-                  <br />
-                  United States
-                </li>
-                <li>
-                  <h3 className="icon fa-mobile">
-                    <span className="label">Phone</span>
-                  </h3>
-                  000-000-0000
-                </li>
-                <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  <a href="#">exgin3538@gmail.com</a>
                 </li>
               </ul>
             </div>
