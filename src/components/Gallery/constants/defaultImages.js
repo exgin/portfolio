@@ -1,6 +1,3 @@
-import full01 from '../../../assets/images/fulls/01.png'
-import full02 from '../../../assets/images/fulls/02.png'
-
 import blmwebsite from '../../../assets/images/fulls/blmwebsite.gif'
 import skatewebsite from '../../../assets/images/fulls/websitedemo.gif'
 

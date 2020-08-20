@@ -10,7 +10,7 @@ const Header = () => (
         <img src={avatar} alt="" />
       </a>
       <h1>
-        <strong>I'm Samuel</strong>, an aspiring software engineer
+        I'm <strong>Samuel</strong>, an aspiring software engineer
       </h1>
     </div>
     <Footer />

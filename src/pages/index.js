@@ -5,8 +5,8 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'Samuel Reid Portfolio'
+  const siteDescription = 'Samuel Reid Portfolio'
 
   return (
     <Layout>
@@ -29,8 +29,10 @@ const HomeIndex = () => {
         <section id="four">
           <h2>Skills</h2>
 
-          <ul className="">
-            <li>JavaScript</li>
+          <ul className="icons">
+            <li>
+              <i class="icon fa-js-square"></i>
+            </li>
             <li>Python</li>
             <li>HTML | CSS</li>
             ----
@@ -44,14 +46,7 @@ const HomeIndex = () => {
           <header className="major">
             <h2>About me</h2>
           </header>
-          <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
-          </p>
+          <p>add about me</p>
         </section>
 
         <section id="three">
