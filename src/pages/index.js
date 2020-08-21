@@ -4,6 +4,27 @@ import Helmet from 'react-helmet'
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faGithub,
+  faJs,
+  faPython,
+  faHtml5,
+  faCss3,
+  faGit,
+  faNode,
+  faReact,
+} from '@fortawesome/free-brands-svg-icons'
+
+const github = <FontAwesomeIcon icon={faGithub} size="3x" />
+const git = <FontAwesomeIcon icon={faGit} size="3x" />
+const js = <FontAwesomeIcon icon={faJs} size="3x" />
+const python = <FontAwesomeIcon icon={faPython} size="3x" />
+const html = <FontAwesomeIcon icon={faHtml5} size="3x" />
+const css = <FontAwesomeIcon icon={faCss3} size="3x" />
+const node = <FontAwesomeIcon icon={faNode} size="3x" />
+const react = <FontAwesomeIcon icon={faReact} size="3x" />
+
 const HomeIndex = () => {
   const siteTitle = 'Samuel Reid Portfolio'
   const siteDescription = 'Samuel Reid Portfolio'
@@ -30,15 +51,18 @@ const HomeIndex = () => {
           <h2>Skills</h2>
 
           <ul className="icons">
+            <li>{js}</li>
+            <li>{node}</li>
+            <li>{react}</li>
+            <li>{python}</li>
+            <li>{html}</li>
+            <li>{css}</li>
+            <li>{git}</li>
+            <li>{github}</li>
             <li>
-              <i class="icon fa-js-square"></i>
+              <img src="https://img.icons8.com/windows/32/000000/heroku.png" />
             </li>
-            <li>Python</li>
-            <li>HTML | CSS</li>
-            ----
-            <li>Heroku</li>
             <li>Netlify</li>
-            <li>Git | Github</li>
           </ul>
         </section>
 
