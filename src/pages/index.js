@@ -4,6 +4,8 @@ import Helmet from 'react-helmet'
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
+import netlify from '../assets/images/netlify.png'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faGithub,
@@ -16,14 +18,14 @@ import {
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 
-const github = <FontAwesomeIcon icon={faGithub} size="3x" />
-const git = <FontAwesomeIcon icon={faGit} size="3x" />
-const js = <FontAwesomeIcon icon={faJs} size="3x" />
-const python = <FontAwesomeIcon icon={faPython} size="3x" />
-const html = <FontAwesomeIcon icon={faHtml5} size="3x" />
-const css = <FontAwesomeIcon icon={faCss3} size="3x" />
-const node = <FontAwesomeIcon icon={faNode} size="3x" />
-const react = <FontAwesomeIcon icon={faReact} size="3x" />
+const github = <FontAwesomeIcon color="black" icon={faGithub} size="3x" />
+const git = <FontAwesomeIcon color="black" icon={faGit} size="3x" />
+const js = <FontAwesomeIcon color="black" icon={faJs} size="3x" />
+const python = <FontAwesomeIcon color="black" icon={faPython} size="3x" />
+const html = <FontAwesomeIcon color="black" icon={faHtml5} size="3x" />
+const css = <FontAwesomeIcon color="black" icon={faCss3} size="3x" />
+const node = <FontAwesomeIcon color="black" icon={faNode} size="3x" />
+const react = <FontAwesomeIcon color="black" icon={faReact} size="3x" />
 
 const HomeIndex = () => {
   const siteTitle = 'Samuel Reid Portfolio'
@@ -45,7 +47,7 @@ const HomeIndex = () => {
 
           <h3>Course Work</h3>
 
-          <p>add course work here</p>
+          <p>hacker news clone | jobly | warbler | shoply</p>
         </section>
 
         <section id="four">
@@ -61,20 +63,44 @@ const HomeIndex = () => {
             <li>{git}</li>
             <li>{github}</li>
             <li>
-              <img src="https://img.icons8.com/windows/32/000000/heroku.png" />
+              <img
+                src="https://img.icons8.com/windows/32/000000/heroku.png"
+                height="43px"
+                width="43px"
+                alt="heroku icon"
+              />
             </li>
-            <li>Netlify</li>
+            <li>
+              <img
+                src={netlify}
+                height="48px"
+                width="48px"
+                alt="netlify icon"
+              />
+            </li>
           </ul>
         </section>
 
         <section id="one">
           <h2>About me</h2>
-          <p>add about me</p>
+          <p>
+            I'm a full stack developer from the Atlanta Metropolitan Area. Close
+            to graduating with an AAS in Information Technoolgy, I started
+            researching more into coding. Having a natural enjoyment of solving
+            problems & expressing my creativty drew me closer to software
+            engineering.
+          </p>
+
+          <p>
+            I'm passionate about not only the code that is written, but the team
+            members I interact with. I strongly believe that having communcation
+            & a soild team is key in developing innovative projects.
+          </p>
 
           <h2>Interests</h2>
           <ul className="icons">
             <li>coding</li>
-            <li>computer hardware</li>
+            <li>building computers</li>
             <li>stocks</li>
             <li>fitness</li>
             <li>skateboarding</li>
@@ -85,10 +111,11 @@ const HomeIndex = () => {
 
         <section id="three">
           <h2>Contact</h2>
-          <p>Want to contact me? Do so here!</p>
+          <p>Want to contact me? You can also do so here!</p>
           <div className="row">
-            <div className="8u 12u$(small)">
-              <form method="post" action="#">
+            {/* ***Contact Form*** */}
+            {/* <div className="8u 12u$(small)">
+              <form method="post" action="mailto:exgin353@gmail.com">
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
                     <input
@@ -121,14 +148,11 @@ const HomeIndex = () => {
                   </li>
                 </ul>
               </form>
-            </div>
-            <div className="4u 12u$(small)">
+            </div> */}
+            <div>
               <ul className="labeled-icons">
                 <li>
-                  <h3 className="icon fa-envelope-o">
-                    <span className="label">Email</span>
-                  </h3>
-                  <a href="#">exgin3538@gmail.com</a>
+                  <h3 className="icon fa-envelope-o">exgin3538@gmail.com</h3>
                 </li>
               </ul>
             </div>
