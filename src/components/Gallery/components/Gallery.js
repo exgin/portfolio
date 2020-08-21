@@ -55,6 +55,7 @@ const Gallery = ({ images = DEFAULT_IMAGES, courseWork = COURSE_WORK }) => {
 Gallery.displayName = 'Gallery'
 Gallery.propTypes = {
   images: PropTypes.array,
+  courseWork: PropTypes.array,
 }
 
 export default Gallery
