@@ -73,8 +73,8 @@ const HomeIndex = () => {
             <li>
               <img
                 src={netlify}
-                height="48px"
-                width="48px"
+                height="43px"
+                width="43px"
                 alt="netlify icon"
               />
             </li>
@@ -85,7 +85,7 @@ const HomeIndex = () => {
           <h2>About me</h2>
           <p>
             I'm a full stack developer from the Atlanta Metropolitan Area. Close
-            to graduating with an AAS in Information Technoolgy, I started
+            to graduating with an AAS in Information Techonolgy, I started
             researching more into coding. Having a natural enjoyment of solving
             problems & expressing my creativty drew me closer to software
             engineering.
