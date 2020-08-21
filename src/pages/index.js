@@ -44,10 +44,6 @@ const HomeIndex = () => {
             <h2>Projects</h2>
           </header>
           <Gallery />
-
-          <h3>Course Work</h3>
-
-          <p>hacker news clone | jobly | warbler | shoply</p>
         </section>
 
         <section id="four">
@@ -87,14 +83,14 @@ const HomeIndex = () => {
             I'm a full stack developer from the Atlanta Metropolitan Area. Close
             to graduating with an AAS in Information Techonolgy, I started
             researching more into coding. Having a natural enjoyment of solving
-            problems & expressing my creativty drew me closer to software
+            problems & expressing my creativity drew me closer to software
             engineering.
           </p>
 
           <p>
-            I'm passionate about not only the code that is written, but the team
-            members I interact with. I strongly believe that having communcation
-            & a soild team is key in developing innovative projects.
+            I'm passionate about the code that is written, and the team members
+            I interact with. I strongly believe that having communcation & a
+            soild team is key in developing innovative projects.
           </p>
 
           <h2>Interests</h2>
@@ -106,6 +102,7 @@ const HomeIndex = () => {
             <li>skateboarding</li>
             <li>football</li>
             <li>eating</li>
+            <li>gaming</li>
           </ul>
         </section>
 
@@ -150,11 +147,7 @@ const HomeIndex = () => {
               </form>
             </div> */}
             <div>
-              <ul className="labeled-icons">
-                <li>
-                  <h3 className="icon fa-envelope-o">exgin3538@gmail.com</h3>
-                </li>
-              </ul>
+              <span className="icon fa-envelope-o"> exgin3538@gmail.com</span>
             </div>
           </div>
         </section>

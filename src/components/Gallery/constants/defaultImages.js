@@ -20,3 +20,6 @@ export const DEFAULT_IMAGES = [
     description: 'Stack Used: React & Redux | NodeJS /w ExpressJS | Postgres',
   },
 ]
+
+// put coursework here
+export const COURSE_WORK = []

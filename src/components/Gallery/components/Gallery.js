@@ -2,9 +2,9 @@ import React, { useState, useCallback } from 'react'
 import PropTypes from 'prop-types'
 import Carousel, { Modal, ModalGateway } from 'react-images'
 import GalleryItem from './GalleryItem'
-import { DEFAULT_IMAGES } from '../constants/defaultImages'
+import { DEFAULT_IMAGES, COURSE_WORK } from '../constants/defaultImages'
 
-const Gallery = ({ images = DEFAULT_IMAGES }) => {
+const Gallery = ({ images = DEFAULT_IMAGES, courseWork = COURSE_WORK }) => {
   const [lightboxIsOpen, setLightboxIsOpen] = useState(false)
   const [selectedIndex, setSelectedIndex] = useState(0)
 
@@ -44,6 +44,10 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
           </Modal>
         )}
       </ModalGateway>
+
+      <h3>Course Work</h3>
+
+      <p>hacker news clone | jobly | warbler | microblog</p>
     </div>
   )
 }
