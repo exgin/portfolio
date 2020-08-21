@@ -38,8 +38,9 @@ const HomeIndex = () => {
 
       <div id="main">
         <section id="two">
-          <h2>Projects</h2>
-
+          <header className="major">
+            <h2>Projects</h2>
+          </header>
           <Gallery />
 
           <h3>Course Work</h3>
@@ -67,10 +68,19 @@ const HomeIndex = () => {
         </section>
 
         <section id="one">
-          <header className="major">
-            <h2>About me</h2>
-          </header>
+          <h2>About me</h2>
           <p>add about me</p>
+
+          <h2>Interests</h2>
+          <ul className="icons">
+            <li>coding</li>
+            <li>computer hardware</li>
+            <li>stocks</li>
+            <li>fitness</li>
+            <li>skateboarding</li>
+            <li>football</li>
+            <li>eating</li>
+          </ul>
         </section>
 
         <section id="three">
