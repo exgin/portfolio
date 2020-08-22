@@ -1,8 +1,16 @@
 import blmwebsite from '../../../assets/images/fulls/blmwebsite.gif'
 import skatewebsite from '../../../assets/images/fulls/websitedemo.gif'
+import hackernews from '../../../assets/images/fulls/hackernews.gif'
+import jobly from '../../../assets/images/fulls/jobly.gif'
+import microblog from '../../../assets/images/fulls/microblog.gif'
+import warb from '../../../assets/images/fulls/warb.gif'
 
 import thumb02 from '../../../assets/images/thumbs/02.png'
 import thumb01 from '../../../assets/images/thumbs/01.png'
+import thumb03 from '../../../assets/images/thumbs/03.png'
+import thumb04 from '../../../assets/images/thumbs/04.png'
+import thumb05 from '../../../assets/images/thumbs/05.png'
+import thumb06 from '../../../assets/images/thumbs/06.png'
 
 export const DEFAULT_IMAGES = [
   {
@@ -22,4 +30,35 @@ export const DEFAULT_IMAGES = [
 ]
 
 // put coursework here
-export const COURSE_WORK = []
+export const COURSE_WORK = [
+  {
+    id: '3',
+    source: warb,
+    thumbnail: thumb03,
+    caption: 'Twitter Clone',
+    description:
+      'Fullstack assignment using Python, Jinja templates & Flask, and authentication/authorization',
+  },
+  {
+    id: '4',
+    source: hackernews,
+    thumbnail: thumb04,
+    caption: 'Hacker News Clone',
+    description: 'Frontend assignment using vanilla HTML/CSS & JavaScript',
+  },
+  {
+    id: '5',
+    source: jobly,
+    thumbnail: thumb05,
+    caption: 'Apply To Jobs',
+    description:
+      'Fullstack assignment using React /w Redux, NodeJS /w Express, and authentication/authorization',
+  },
+  {
+    id: '6',
+    source: microblog,
+    thumbnail: thumb06,
+    caption: 'Blog Website',
+    description: 'Fullstack assignment using React /w Redux, NodeJS /w Express',
+  },
+]

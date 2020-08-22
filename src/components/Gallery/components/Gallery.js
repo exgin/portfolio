@@ -47,7 +47,33 @@ const Gallery = ({ images = DEFAULT_IMAGES, courseWork = COURSE_WORK }) => {
 
       <h3>Course Work</h3>
 
-      <p>hacker news clone | jobly | warbler | microblog</p>
+      {courseWork && (
+        <div className="row">
+          {courseWork.map((obj, i) => {
+            return (
+              <GalleryItem
+                id={obj.id}
+                source={obj.source}
+                thumbnail={obj.thumbnail}
+                caption={obj.caption}
+                description={obj.description}
+                position={obj.position}
+                toggleLightbox={obj.toggleLightbox}
+                position={i}
+                toggleLightbox={toggleLightbox}
+              />
+            )
+          })}
+        </div>
+      )}
+
+      <ModalGateway>
+        {lightboxIsOpen && (
+          <Modal onClose={toggleLightbox}>
+            <Carousel currentIndex={selectedIndex} views={courseWork} />
+          </Modal>
+        )}
+      </ModalGateway>
     </div>
   )
 }
