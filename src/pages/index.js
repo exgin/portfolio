@@ -41,7 +41,7 @@ const HomeIndex = () => {
       <div id="main">
         <section id="two">
           <header className="major">
-            <h2>Projects</h2>
+            <h2>Developments</h2>
           </header>
           <Gallery />
         </section>

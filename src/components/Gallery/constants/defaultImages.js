@@ -17,25 +17,21 @@ export const DEFAULT_IMAGES = [
     id: '1',
     source: skatewebsite,
     thumbnail: thumb02,
-    caption: 'One Stop Shop Skate Spot',
+    caption: 'One Stop Shop Skate Spot | project',
     description: 'Stack Used: JavaScript & jQuery | Python /w Flask | Postgres',
   },
   {
     id: '2',
     source: blmwebsite,
     thumbnail: thumb01,
-    caption: 'Black Lives Matter',
+    caption: 'Black Lives Matter | project',
     description: 'Stack Used: React & Redux | NodeJS /w ExpressJS | Postgres',
   },
-]
-
-// put coursework here
-export const COURSE_WORK = [
   {
     id: '3',
     source: warb,
     thumbnail: thumb03,
-    caption: 'Twitter Clone',
+    caption: 'Twitter Clone | course work',
     description:
       'Fullstack assignment using Python, Jinja templates & Flask, and authentication/authorization',
   },
@@ -43,14 +39,14 @@ export const COURSE_WORK = [
     id: '4',
     source: hackernews,
     thumbnail: thumb04,
-    caption: 'Hacker News Clone',
+    caption: 'Hacker News Clone | course work',
     description: 'Frontend assignment using vanilla HTML/CSS & JavaScript',
   },
   {
     id: '5',
     source: jobly,
     thumbnail: thumb05,
-    caption: 'Apply To Jobs',
+    caption: 'Apply To Jobs | course work',
     description:
       'Fullstack assignment using React /w Redux, NodeJS /w Express, and authentication/authorization',
   },
@@ -58,7 +54,7 @@ export const COURSE_WORK = [
     id: '6',
     source: microblog,
     thumbnail: thumb06,
-    caption: 'Blog Website',
+    caption: 'Blog Website | course work',
     description: 'Fullstack assignment using React /w Redux, NodeJS /w Express',
   },
 ]
