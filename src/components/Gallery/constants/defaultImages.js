@@ -5,12 +5,12 @@ import jobly from '../../../assets/images/fulls/jobly.gif'
 import microblog from '../../../assets/images/fulls/microblog.gif'
 import warb from '../../../assets/images/fulls/warb.gif'
 
-import thumb02 from '../../../assets/images/thumbs/02.png'
-import thumb01 from '../../../assets/images/thumbs/01.png'
-import thumb03 from '../../../assets/images/thumbs/03.png'
-import thumb04 from '../../../assets/images/thumbs/04.png'
-import thumb05 from '../../../assets/images/thumbs/05.png'
-import thumb06 from '../../../assets/images/thumbs/06.png'
+import thumb02 from '../../../assets/images/thumbs/02j.jpg'
+import thumb01 from '../../../assets/images/thumbs/01j.jpg'
+import thumb03 from '../../../assets/images/thumbs/03j.jpg'
+import thumb04 from '../../../assets/images/thumbs/04j.jpg'
+import thumb05 from '../../../assets/images/thumbs/05j.jpg'
+import thumb06 from '../../../assets/images/thumbs/06j.jpg'
 
 export const DEFAULT_IMAGES = [
   {
@@ -32,8 +32,7 @@ export const DEFAULT_IMAGES = [
     source: warb,
     thumbnail: thumb03,
     caption: 'Twitter Clone | course work',
-    description:
-      'Fullstack assignment using Python, Jinja templates & Flask, and authentication/authorization',
+    description: 'Fullstack assignment using Python, Jinja templates & Flask',
   },
   {
     id: '4',
@@ -47,8 +46,7 @@ export const DEFAULT_IMAGES = [
     source: jobly,
     thumbnail: thumb05,
     caption: 'Apply To Jobs | course work',
-    description:
-      'Fullstack assignment using React /w Redux, NodeJS /w Express, and authentication/authorization',
+    description: 'Fullstack assignment using React /w Redux, NodeJS /w Express',
   },
   {
     id: '6',

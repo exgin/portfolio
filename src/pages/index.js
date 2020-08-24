@@ -39,14 +39,14 @@ const HomeIndex = () => {
       </Helmet>
 
       <div id="main">
-        <section id="two">
+        <section id="one">
           <header className="major">
             <h2>Developments</h2>
           </header>
           <Gallery />
         </section>
 
-        <section id="four">
+        <section id="two">
           <h2>Skills</h2>
 
           <ul className="icons">
@@ -77,7 +77,7 @@ const HomeIndex = () => {
           </ul>
         </section>
 
-        <section id="one">
+        <section id="three">
           <h2>About me</h2>
           <p>
             I'm a full stack developer from the Atlanta Metropolitan Area. Close
@@ -106,7 +106,7 @@ const HomeIndex = () => {
           </ul>
         </section>
 
-        <section id="three">
+        <section id="four">
           <h2>Contact</h2>
           <p>Want to contact me? You can also do so here!</p>
           <div className="row">
