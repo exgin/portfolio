@@ -25,6 +25,7 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
               <GalleryItem
                 id={obj.id}
                 source={obj.source}
+                link={obj.link}
                 thumbnail={obj.thumbnail}
                 caption={obj.caption}
                 description={obj.description}

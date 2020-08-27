@@ -9,6 +9,7 @@ const GalleryItem = ({
   description,
   position,
   toggleLightbox,
+  link,
 }) => {
   const onClick = useCallback(
     (e) => {
@@ -23,9 +24,11 @@ const GalleryItem = ({
       <a className="image fit thumb" href={source} onClick={onClick}>
         <img src={thumbnail} alt="thumbnail" />
       </a>
-
       <h3>{caption}</h3>
       <p>{description}</p>
+      <a href={link} style={{ color: 'black', fontSize: 13 }}>
+        Link To Demo!
+      </a>
     </article>
   )
 }
@@ -39,6 +42,7 @@ GalleryItem.propTypes = {
   description: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,
   toggleLightbox: PropTypes.func.isRequired,
+  link: PropTypes.string.isRequired,
 }
 
 export default GalleryItem
