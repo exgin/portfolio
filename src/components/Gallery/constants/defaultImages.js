@@ -35,7 +35,7 @@ export const DEFAULT_IMAGES = [
     thumbnail: thumb03,
     caption: 'Twitter Clone | Course Work',
     description: 'Fullstack assignment using Python, Jinja templates & Flask',
-    link: '',
+    link: 'https://sr-wabler.herokuapp.com/',
   },
   {
     id: '4',
