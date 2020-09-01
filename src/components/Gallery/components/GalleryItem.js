@@ -10,6 +10,7 @@ const GalleryItem = ({
   position,
   toggleLightbox,
   link,
+  gh,
 }) => {
   const onClick = useCallback(
     (e) => {
@@ -28,6 +29,10 @@ const GalleryItem = ({
       <p>{description}</p>
       <a href={link} style={{ color: 'black', fontSize: 13 }}>
         Link To Demo!
+      </a>{' '}
+      |
+      <a href={gh} style={{ color: 'black', fontSize: 13 }}>
+        Source Code
       </a>
     </article>
   )
