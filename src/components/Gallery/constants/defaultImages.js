@@ -19,6 +19,7 @@ export const DEFAULT_IMAGES = [
     thumbnail: thumb02,
     caption: 'One Stop Shop Skate Spot | Project',
     description: 'Stack Used: JavaScript & jQuery | Python /w Flask | Postgres',
+    link: 'https://one-stop-skate-spot-exgin.herokuapp.com/',
   },
   {
     id: '2',
@@ -26,6 +27,7 @@ export const DEFAULT_IMAGES = [
     thumbnail: thumb01,
     caption: 'Black Lives Matter | Project',
     description: 'Stack Used: React & Redux | NodeJS /w ExpressJS | Postgres',
+    link: 'https://blm-sammy.netlify.app/',
   },
   {
     id: '3',
@@ -33,6 +35,7 @@ export const DEFAULT_IMAGES = [
     thumbnail: thumb03,
     caption: 'Twitter Clone | Course Work',
     description: 'Fullstack assignment using Python, Jinja templates & Flask',
+    link: 'https://sr-wabler.herokuapp.com/',
   },
   {
     id: '4',
@@ -40,6 +43,7 @@ export const DEFAULT_IMAGES = [
     thumbnail: thumb04,
     caption: 'Hacker News Clone | Course Work',
     description: 'Frontend assignment using vanilla HTML/CSS & JavaScript',
+    link: 'https://exgin.github.io/hacker-news-clone/',
   },
   {
     id: '5',
@@ -47,6 +51,7 @@ export const DEFAULT_IMAGES = [
     thumbnail: thumb05,
     caption: 'Apply To Jobs | Course Work',
     description: 'Fullstack assignment using React /w Redux, NodeJS /w Express',
+    link: 'https://jobly-fullstack.herokuapp.com/',
   },
   {
     id: '6',
@@ -54,5 +59,6 @@ export const DEFAULT_IMAGES = [
     thumbnail: thumb06,
     caption: 'Blog Website | Course Work',
     description: 'Fullstack assignment using React /w Redux, NodeJS /w Express',
+    link: 'https://microblog-front.netlify.app/',
   },
 ]
