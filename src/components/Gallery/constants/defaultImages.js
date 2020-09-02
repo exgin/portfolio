@@ -56,7 +56,7 @@ export const DEFAULT_IMAGES = [
     caption: 'Apply To Jobs | Course Work',
     description: 'Fullstack assignment using React /w Redux, NodeJS /w Express',
     link: 'https://jobly-fullstack.herokuapp.com/',
-    gh: 'https://github.com/exgin/Jobly-',
+    gh: 'https://github.com/exgin/jobly-frontend',
   },
   {
     id: '6',
