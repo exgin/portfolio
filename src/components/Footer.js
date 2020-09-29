@@ -20,7 +20,7 @@ const Footer = () => (
         </li>
         <li>
           <a href={resume} className="icon fa-file fa-2x">
-            <span className="label">resume</span>
+            <span className="label">Resume</span>
           </a>
         </li>
       </ul>
