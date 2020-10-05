@@ -2,7 +2,7 @@ import blmwebsite from '../../../assets/images/fulls/blmwebsite.gif'
 import skatewebsite from '../../../assets/images/fulls/websitedemo.gif'
 import hackernews from '../../../assets/images/fulls/hackernews.gif'
 import jobly from '../../../assets/images/fulls/jobly.gif'
-import microblog from '../../../assets/images/fulls/microblog.gif'
+import lunatutor from '../../../assets/images/fulls/lunatutor.jpg'
 import warb from '../../../assets/images/fulls/warb.gif'
 
 import thumb02 from '../../../assets/images/thumbs/02j.jpg'
@@ -60,11 +60,11 @@ export const DEFAULT_IMAGES = [
   },
   {
     id: '6',
-    source: microblog,
+    source: lunatutor,
     thumbnail: thumb06,
-    caption: 'Blog Website | Course Work',
-    description: 'Fullstack assignment using React /w Redux, NodeJS /w Express',
-    link: 'https://microblog-front.netlify.app/',
-    gh: 'https://github.com/exgin/Microblog',
+    caption: 'Social Question WebApp | HackaThorn',
+    description: 'Group Fullstack assignment using Python /w Flask',
+    link: 'https://lunatutor.herokuapp.com/',
+    gh: 'https://github.com/Luna-Tutor/lunaTutor',
   },
 ]
