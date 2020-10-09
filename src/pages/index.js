@@ -80,8 +80,8 @@ const HomeIndex = () => {
         <section id="three">
           <h2>About me</h2>
           <p>
-            I'm a full stack developer from the Atlanta Metropolitan Area. Close
-            to graduating with an AAS in Information Techonolgy, I started
+            I'm a full stack developer from the Atlanta Metropolitan Area. After
+            graduating with an AAS in Information Techonolgy, I started
             researching more into coding. Having a natural enjoyment of solving
             problems & expressing my creativity drew me closer to software
             engineering.
@@ -90,7 +90,9 @@ const HomeIndex = () => {
           <p>
             I'm passionate about the code that is written, and the team members
             I interact with. I strongly believe that having communcation & a
-            soild team is key in developing innovative projects.
+            soild team is key in developing innovative projects. Also, I want to
+            understand how the code is written or how a solution is formed,
+            instead of just writing code just to write it.
           </p>
 
           <h2>Interests</h2>
