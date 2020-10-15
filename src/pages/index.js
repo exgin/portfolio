@@ -90,7 +90,7 @@ const HomeIndex = () => {
           <p>
             I'm passionate about the code that is written, and the team members
             I interact with. I strongly believe that having communcation & a
-            soild team is key in developing innovative projects.
+            solid team is key in developing innovative projects.
           </p>
 
           <h2>Interests</h2>
