@@ -40,9 +40,9 @@ const HomeIndex = () => {
 
       <div id="main">
         <section id="one">
-          <header className="major">
+  
             <h2>Developments</h2>
-          </header>
+
           <Gallery />
         </section>
 
