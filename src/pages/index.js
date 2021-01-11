@@ -16,6 +16,7 @@ import {
   faGit,
   faNode,
   faReact,
+  faAws,
 } from '@fortawesome/free-brands-svg-icons'
 
 const github = <FontAwesomeIcon color="black" icon={faGithub} size="3x" />
@@ -26,6 +27,7 @@ const html = <FontAwesomeIcon color="black" icon={faHtml5} size="3x" />
 const css = <FontAwesomeIcon color="black" icon={faCss3} size="3x" />
 const node = <FontAwesomeIcon color="black" icon={faNode} size="3x" />
 const react = <FontAwesomeIcon color="black" icon={faReact} size="3x" />
+const aws = <FontAwesomeIcon color="black" icon={faAws} size="3x" />
 
 const HomeIndex = () => {
   const siteTitle = 'Samuel Reid Portfolio'
@@ -58,6 +60,7 @@ const HomeIndex = () => {
             <li>{css}</li>
             <li>{git}</li>
             <li>{github}</li>
+            <li>{aws}</li>
             <li>
               <img
                 src="https://img.icons8.com/windows/32/000000/heroku.png"
