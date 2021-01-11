@@ -62,7 +62,7 @@ export const DEFAULT_IMAGES = [
     id: '6',
     source: lunatutor,
     thumbnail: thumb06,
-    caption: 'Social Question WebApp | NASA HackaThorn',
+    caption: 'Social Question WebApp | NASA HackaThon',
     description: 'Group Fullstack assignment using Python /w Flask',
     link: 'https://lunatutor.herokuapp.com/',
     gh: 'https://github.com/Luna-Tutor/lunaTutor',
