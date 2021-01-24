@@ -4,7 +4,6 @@ import Footer from './Footer'
 // import avatar from '../assets/images/avatar.jpg'
 
 const Header = () => (
-  
   <header id="header">
     <div className="inner">
       <h1>

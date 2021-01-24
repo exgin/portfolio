@@ -36,13 +36,12 @@ const HomeIndex = () => {
       <Helmet>
         <title>{siteTitle}</title>
         <meta name="description" content={siteDescription} />
+        <script src='../components/customJS.js' type='text/javascript'/>
       </Helmet>
 
       <div id="main">
         <section id="one">
-  
             <h2>Developments</h2>
-
           <Gallery />
         </section>
 
